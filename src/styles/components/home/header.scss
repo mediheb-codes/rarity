@@ -1,0 +1,50 @@
+.container-header{
+  width: 95%;
+  height: 690px;
+  border-radius: 35px;
+  border: 1px solid #F46649;
+  background-image: url("../../../assets/backHeader.png") ;
+  background-size: 100% 100%;
+  position: relative;
+
+  .wrapper-header{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    right: 8%;
+
+    .title-header{
+      font:bold 4rem "Arial";
+      color: #F46649;
+      margin-bottom: 0.6rem;
+    }
+    .subtitle-header{
+      font:bold 4rem "Arial";
+      color: #fff;
+      margin-bottom: 0.6rem;
+    }
+    .section-buttons{
+      display: flex;
+      align-items: center;
+
+      .button-link{
+        width: 200px;
+        height: 87px;
+        background-color: #fff;
+        border: 1px solid #707070;
+        border-radius: 35px;
+        transition: 0.5s;
+        margin-right: 1.56rem;
+        font:bold 1.88rem "Arial";
+        color: #000;
+        cursor: pointer;
+        outline: none;
+
+        &:hover{
+          background-color: #F46649;
+        }
+      }
+    }
+  }
+}

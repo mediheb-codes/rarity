@@ -1,0 +1,19 @@
+.wrapper-items{
+  width: 100%;
+  position: relative;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+
+  .header-items{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title-elemnts{
+      font:bold 3.86rem "Arial";
+      color: #F46649;
+    }
+  }
+}

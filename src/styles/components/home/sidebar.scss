@@ -1,17 +1,18 @@
 .sidebar-home{
-  width: 400px;
   height: 100%;
   display: flex;
   background-color: transparent;
   flex-direction: column;
   padding-left: 80px;
-  padding-top: 100px;
+  padding-right: 80px;
+  padding-top: 10px;
 
   .sideLink{
     font:bold 1rem "Arial";
     color: #fff;
     margin-bottom: 4rem;
     cursor: pointer;
+    width: max-content;
   }
   .currentLink{
     color: #F46649 !important;
